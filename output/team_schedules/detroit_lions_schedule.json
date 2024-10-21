@@ -4,76 +4,75 @@
   "division": "North",
   "schedule": {
     "Week 1": {
-      "opponent": "New York Jets",
-      "is_home": false
+      "opponent": "New Orleans Saints",
+      "is_home": true
     },
     "Week 2": {
-      "opponent": "Philadelphia Eagles",
+      "opponent": "Las Vegas Raiders",
       "is_home": true
     },
     "Week 3": {
-      "opponent": "Washington Commanders",
+      "opponent": "Chicago Bears",
       "is_home": false
     },
     "Week 4": {
-      "opponent": "Buffalo Bills",
-      "is_home": false
+      "opponent": "Seattle Seahawks",
+      "is_home": true
     },
     "Week 5": {
-      "opponent": "Denver Broncos",
+      "opponent": "Carolina Panthers",
       "is_home": true
     },
     "Week 6": {
-      "opponent": "Denver Broncos",
+      "opponent": "Green Bay Packers",
       "is_home": true
     },
     "Week 7": {
-      "opponent": "Seattle Seahawks",
-      "is_home": true
+      "bye_week": true
     },
     "Week 8": {
       "opponent": "Philadelphia Eagles",
       "is_home": true
     },
     "Week 9": {
-      "opponent": "Baltimore Ravens",
+      "opponent": "Chicago Bears",
       "is_home": true
     },
     "Week 10": {
-      "opponent": "Miami Dolphins",
+      "opponent": "Houston Texans",
       "is_home": true
     },
     "Week 11": {
-      "opponent": "Philadelphia Eagles",
-      "is_home": true
+      "opponent": "New York Giants",
+      "is_home": false
     },
     "Week 12": {
-      "opponent": "New England Patriots",
+      "opponent": "New Orleans Saints",
       "is_home": true
     },
     "Week 13": {
-      "opponent": "Dallas Cowboys",
+      "opponent": "Kansas City Chiefs",
       "is_home": true
     },
     "Week 14": {
-      "opponent": "San Francisco 49ers",
+      "opponent": "Kansas City Chiefs",
       "is_home": false
     },
     "Week 15": {
-      "opponent": "New Orleans Saints",
-      "is_home": false
+      "opponent": "New York Giants",
+      "is_home": true
     },
     "Week 16": {
-      "opponent": "Los Angeles Chargers",
+      "opponent": "New England Patriots",
       "is_home": true
     },
     "Week 17": {
-      "opponent": "Minnesota Vikings",
-      "is_home": true
+      "opponent": "Pittsburgh Steelers",
+      "is_home": false
     },
     "Week 18": {
-      "opponent": "New York Jets",
-      "is_home": true
+      "opponent": "Baltimore Ravens",
+      "is_home": false
     }
   }
 }

@@ -8,71 +8,70 @@
       "is_home": true
     },
     "Week 2": {
-      "opponent": "Las Vegas Raiders",
+      "opponent": "Los Angeles Rams",
       "is_home": false
     },
     "Week 3": {
-      "opponent": "Denver Broncos",
+      "opponent": "Baltimore Ravens",
       "is_home": false
     },
     "Week 4": {
-      "opponent": "Cleveland Browns",
+      "opponent": "Minnesota Vikings",
       "is_home": true
     },
     "Week 5": {
-      "opponent": "San Francisco 49ers",
+      "opponent": "Arizona Cardinals",
       "is_home": true
     },
     "Week 6": {
-      "opponent": "Buffalo Bills",
-      "is_home": true
-    },
-    "Week 7": {
       "opponent": "Carolina Panthers",
       "is_home": true
     },
-    "Week 8": {
-      "opponent": "New York Giants",
+    "Week 7": {
+      "opponent": "New Orleans Saints",
       "is_home": false
     },
+    "Week 8": {
+      "bye_week": true
+    },
     "Week 9": {
-      "opponent": "Philadelphia Eagles",
+      "opponent": "Seattle Seahawks",
       "is_home": true
     },
     "Week 10": {
-      "opponent": "New York Giants",
+      "opponent": "Dallas Cowboys",
       "is_home": true
     },
     "Week 11": {
-      "opponent": "Arizona Cardinals",
+      "opponent": "San Francisco 49ers",
       "is_home": false
     },
     "Week 12": {
-      "opponent": "Detroit Lions",
-      "is_home": false
+      "opponent": "Dallas Cowboys",
+      "is_home": true
     },
     "Week 13": {
       "opponent": "Denver Broncos",
-      "is_home": false
-    },
-    "Week 14": {
-      "opponent": "Washington Commanders",
       "is_home": true
     },
+    "Week 14": {
+      "opponent": "Green Bay Packers",
+      "is_home": false
+    },
     "Week 15": {
-      "opponent": "Washington Commanders",
+      "opponent": "Minnesota Vikings",
       "is_home": true
     },
     "Week 16": {
-      "opponent": "Arizona Cardinals",
-      "is_home": true
+      "opponent": "Detroit Lions",
+      "is_home": false
     },
     "Week 17": {
-      "opponent": "Los Angeles Rams",
-      "is_home": true
+      "opponent": "Arizona Cardinals",
+      "is_home": false
     },
     "Week 18": {
-      "opponent": "Denver Broncos",
+      "opponent": "Seattle Seahawks",
       "is_home": true
     }
   }
