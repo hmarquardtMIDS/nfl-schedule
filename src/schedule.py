@@ -1,4 +1,5 @@
 import json
+import os
 
 class Game:
     def __init__(self, home_team, away_team, week):
@@ -35,3 +36,30 @@ class Schedule:
     def save_to_json(self, filename):
         with open(filename, 'w') as f:
             json.dump(self.to_dict(), f, indent=2)
+
+    def get_team_schedule_dict(self, team):
+        team_games = self.get_team_schedule(team)
+        return {
+            "team": team.name,
+            "conference": team.conference,
+            "division": team.division,
+            "schedule": {
+                f"Week {game.week}": {
+                    "opponent": game.away_team.name if game.home_team == team else game.home_team.name,
+                    "is_home": game.home_team == team
+                }
+                for game in sorted(team_games, key=lambda g: g.week)
+            }
+        }
+
+    def save_team_schedules(self, output_dir):
+        if not os.path.exists(output_dir):
+            os.makedirs(output_dir)
+        
+        for team in set([game.home_team for game in self.games] + [game.away_team for game in self.games]):
+            team_schedule = self.get_team_schedule_dict(team)
+            filename = os.path.join(output_dir, f"{team.name.replace(' ', '_').lower()}_schedule.json")
+            with open(filename, 'w') as f:
+                json.dump(team_schedule, f, indent=2)
+        
+        return len(set([game.home_team for game in self.games] + [game.away_team for game in self.games]))

@@ -1,0 +1,75 @@
+{
+  "team": "Dallas Cowboys",
+  "conference": "NFC",
+  "division": "East",
+  "schedule": {
+    "Week 1": {
+      "opponent": "New England Patriots",
+      "is_home": false
+    },
+    "Week 2": {
+      "opponent": "Chicago Bears",
+      "is_home": true
+    },
+    "Week 3": {
+      "opponent": "Tampa Bay Buccaneers",
+      "is_home": true
+    },
+    "Week 4": {
+      "opponent": "Cleveland Browns",
+      "is_home": false
+    },
+    "Week 5": {
+      "opponent": "Denver Broncos",
+      "is_home": false
+    },
+    "Week 6": {
+      "opponent": "Carolina Panthers",
+      "is_home": false
+    },
+    "Week 7": {
+      "opponent": "Chicago Bears",
+      "is_home": true
+    },
+    "Week 8": {
+      "opponent": "New England Patriots",
+      "is_home": true
+    },
+    "Week 9": {
+      "opponent": "Buffalo Bills",
+      "is_home": true
+    },
+    "Week 10": {
+      "opponent": "Cleveland Browns",
+      "is_home": false
+    },
+    "Week 11": {
+      "opponent": "Cleveland Browns",
+      "is_home": true
+    },
+    "Week 12": {
+      "opponent": "Pittsburgh Steelers",
+      "is_home": true
+    },
+    "Week 13": {
+      "opponent": "Carolina Panthers",
+      "is_home": true
+    },
+    "Week 14": {
+      "opponent": "Minnesota Vikings",
+      "is_home": true
+    },
+    "Week 15": {
+      "opponent": "Washington Commanders",
+      "is_home": false
+    },
+    "Week 16": {
+      "opponent": "Tampa Bay Buccaneers",
+      "is_home": false
+    },
+    "Week 17": {
+      "opponent": "Los Angeles Chargers",
+      "is_home": false
+    }
+  }
+}

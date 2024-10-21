@@ -1,0 +1,75 @@
+{
+  "team": "Buffalo Bills",
+  "conference": "AFC",
+  "division": "East",
+  "schedule": {
+    "Week 1": {
+      "opponent": "Carolina Panthers",
+      "is_home": false
+    },
+    "Week 2": {
+      "opponent": "Los Angeles Chargers",
+      "is_home": false
+    },
+    "Week 3": {
+      "opponent": "Las Vegas Raiders",
+      "is_home": false
+    },
+    "Week 4": {
+      "opponent": "Seattle Seahawks",
+      "is_home": false
+    },
+    "Week 5": {
+      "opponent": "New England Patriots",
+      "is_home": true
+    },
+    "Week 6": {
+      "opponent": "Los Angeles Rams",
+      "is_home": true
+    },
+    "Week 7": {
+      "opponent": "Kansas City Chiefs",
+      "is_home": true
+    },
+    "Week 8": {
+      "opponent": "Arizona Cardinals",
+      "is_home": false
+    },
+    "Week 9": {
+      "opponent": "Dallas Cowboys",
+      "is_home": false
+    },
+    "Week 10": {
+      "opponent": "Miami Dolphins",
+      "is_home": false
+    },
+    "Week 11": {
+      "opponent": "Green Bay Packers",
+      "is_home": true
+    },
+    "Week 12": {
+      "opponent": "Jacksonville Jaguars",
+      "is_home": true
+    },
+    "Week 13": {
+      "opponent": "Minnesota Vikings",
+      "is_home": false
+    },
+    "Week 14": {
+      "opponent": "Indianapolis Colts",
+      "is_home": true
+    },
+    "Week 15": {
+      "opponent": "Minnesota Vikings",
+      "is_home": true
+    },
+    "Week 16": {
+      "opponent": "New York Giants",
+      "is_home": true
+    },
+    "Week 17": {
+      "opponent": "Jacksonville Jaguars",
+      "is_home": true
+    }
+  }
+}

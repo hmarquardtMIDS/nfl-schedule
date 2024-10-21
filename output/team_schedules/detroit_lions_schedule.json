@@ -1,0 +1,75 @@
+{
+  "team": "Detroit Lions",
+  "conference": "NFC",
+  "division": "North",
+  "schedule": {
+    "Week 1": {
+      "opponent": "Arizona Cardinals",
+      "is_home": true
+    },
+    "Week 2": {
+      "opponent": "Washington Commanders",
+      "is_home": false
+    },
+    "Week 3": {
+      "opponent": "Los Angeles Rams",
+      "is_home": false
+    },
+    "Week 4": {
+      "opponent": "New Orleans Saints",
+      "is_home": false
+    },
+    "Week 5": {
+      "opponent": "Seattle Seahawks",
+      "is_home": false
+    },
+    "Week 6": {
+      "opponent": "Baltimore Ravens",
+      "is_home": true
+    },
+    "Week 7": {
+      "opponent": "Indianapolis Colts",
+      "is_home": true
+    },
+    "Week 8": {
+      "opponent": "Tennessee Titans",
+      "is_home": true
+    },
+    "Week 9": {
+      "opponent": "Philadelphia Eagles",
+      "is_home": false
+    },
+    "Week 10": {
+      "opponent": "Houston Texans",
+      "is_home": true
+    },
+    "Week 11": {
+      "opponent": "Cincinnati Bengals",
+      "is_home": true
+    },
+    "Week 12": {
+      "opponent": "Miami Dolphins",
+      "is_home": true
+    },
+    "Week 13": {
+      "opponent": "Kansas City Chiefs",
+      "is_home": true
+    },
+    "Week 14": {
+      "opponent": "Arizona Cardinals",
+      "is_home": true
+    },
+    "Week 15": {
+      "opponent": "Houston Texans",
+      "is_home": false
+    },
+    "Week 16": {
+      "opponent": "Jacksonville Jaguars",
+      "is_home": true
+    },
+    "Week 17": {
+      "opponent": "Baltimore Ravens",
+      "is_home": false
+    }
+  }
+}

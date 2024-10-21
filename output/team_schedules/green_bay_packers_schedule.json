@@ -1,0 +1,75 @@
+{
+  "team": "Green Bay Packers",
+  "conference": "NFC",
+  "division": "North",
+  "schedule": {
+    "Week 1": {
+      "opponent": "Indianapolis Colts",
+      "is_home": false
+    },
+    "Week 2": {
+      "opponent": "New Orleans Saints",
+      "is_home": true
+    },
+    "Week 3": {
+      "opponent": "Washington Commanders",
+      "is_home": true
+    },
+    "Week 4": {
+      "opponent": "Los Angeles Rams",
+      "is_home": false
+    },
+    "Week 5": {
+      "opponent": "Minnesota Vikings",
+      "is_home": false
+    },
+    "Week 6": {
+      "opponent": "New Orleans Saints",
+      "is_home": true
+    },
+    "Week 7": {
+      "opponent": "New Orleans Saints",
+      "is_home": true
+    },
+    "Week 8": {
+      "opponent": "Chicago Bears",
+      "is_home": false
+    },
+    "Week 9": {
+      "opponent": "Las Vegas Raiders",
+      "is_home": true
+    },
+    "Week 10": {
+      "opponent": "Pittsburgh Steelers",
+      "is_home": true
+    },
+    "Week 11": {
+      "opponent": "Buffalo Bills",
+      "is_home": false
+    },
+    "Week 12": {
+      "opponent": "New Orleans Saints",
+      "is_home": false
+    },
+    "Week 13": {
+      "opponent": "Indianapolis Colts",
+      "is_home": true
+    },
+    "Week 14": {
+      "opponent": "Baltimore Ravens",
+      "is_home": false
+    },
+    "Week 15": {
+      "opponent": "Kansas City Chiefs",
+      "is_home": true
+    },
+    "Week 16": {
+      "opponent": "Kansas City Chiefs",
+      "is_home": false
+    },
+    "Week 17": {
+      "opponent": "Tennessee Titans",
+      "is_home": false
+    }
+  }
+}

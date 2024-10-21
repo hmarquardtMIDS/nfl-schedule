@@ -1,0 +1,75 @@
+{
+  "team": "Carolina Panthers",
+  "conference": "NFC",
+  "division": "South",
+  "schedule": {
+    "Week 1": {
+      "opponent": "Buffalo Bills",
+      "is_home": true
+    },
+    "Week 2": {
+      "opponent": "Indianapolis Colts",
+      "is_home": false
+    },
+    "Week 3": {
+      "opponent": "Denver Broncos",
+      "is_home": false
+    },
+    "Week 4": {
+      "opponent": "Miami Dolphins",
+      "is_home": false
+    },
+    "Week 5": {
+      "opponent": "Kansas City Chiefs",
+      "is_home": true
+    },
+    "Week 6": {
+      "opponent": "Dallas Cowboys",
+      "is_home": true
+    },
+    "Week 7": {
+      "opponent": "Jacksonville Jaguars",
+      "is_home": false
+    },
+    "Week 8": {
+      "opponent": "Los Angeles Rams",
+      "is_home": true
+    },
+    "Week 9": {
+      "opponent": "Los Angeles Chargers",
+      "is_home": true
+    },
+    "Week 10": {
+      "opponent": "Indianapolis Colts",
+      "is_home": false
+    },
+    "Week 11": {
+      "opponent": "Seattle Seahawks",
+      "is_home": false
+    },
+    "Week 12": {
+      "opponent": "Cincinnati Bengals",
+      "is_home": true
+    },
+    "Week 13": {
+      "opponent": "Dallas Cowboys",
+      "is_home": false
+    },
+    "Week 14": {
+      "opponent": "Denver Broncos",
+      "is_home": false
+    },
+    "Week 15": {
+      "opponent": "Atlanta Falcons",
+      "is_home": true
+    },
+    "Week 16": {
+      "opponent": "New Orleans Saints",
+      "is_home": false
+    },
+    "Week 17": {
+      "opponent": "Arizona Cardinals",
+      "is_home": true
+    }
+  }
+}

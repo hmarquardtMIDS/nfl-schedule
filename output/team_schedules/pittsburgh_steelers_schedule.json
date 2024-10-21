@@ -1,0 +1,75 @@
+{
+  "team": "Pittsburgh Steelers",
+  "conference": "AFC",
+  "division": "North",
+  "schedule": {
+    "Week 1": {
+      "opponent": "Baltimore Ravens",
+      "is_home": true
+    },
+    "Week 2": {
+      "opponent": "Los Angeles Rams",
+      "is_home": false
+    },
+    "Week 3": {
+      "opponent": "Seattle Seahawks",
+      "is_home": true
+    },
+    "Week 4": {
+      "opponent": "Houston Texans",
+      "is_home": false
+    },
+    "Week 5": {
+      "opponent": "Las Vegas Raiders",
+      "is_home": true
+    },
+    "Week 6": {
+      "opponent": "Cincinnati Bengals",
+      "is_home": false
+    },
+    "Week 7": {
+      "opponent": "New York Jets",
+      "is_home": false
+    },
+    "Week 8": {
+      "opponent": "Las Vegas Raiders",
+      "is_home": true
+    },
+    "Week 9": {
+      "opponent": "Baltimore Ravens",
+      "is_home": false
+    },
+    "Week 10": {
+      "opponent": "Green Bay Packers",
+      "is_home": false
+    },
+    "Week 11": {
+      "opponent": "New Orleans Saints",
+      "is_home": false
+    },
+    "Week 12": {
+      "opponent": "Dallas Cowboys",
+      "is_home": false
+    },
+    "Week 13": {
+      "opponent": "Philadelphia Eagles",
+      "is_home": false
+    },
+    "Week 14": {
+      "opponent": "Los Angeles Chargers",
+      "is_home": true
+    },
+    "Week 15": {
+      "opponent": "Miami Dolphins",
+      "is_home": true
+    },
+    "Week 16": {
+      "opponent": "Indianapolis Colts",
+      "is_home": false
+    },
+    "Week 17": {
+      "opponent": "Philadelphia Eagles",
+      "is_home": true
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "team": "Las Vegas Raiders",
+  "conference": "AFC",
+  "division": "West",
+  "schedule": {
+    "Week 1": {
+      "opponent": "Philadelphia Eagles",
+      "is_home": false
+    },
+    "Week 2": {
+      "opponent": "New England Patriots",
+      "is_home": false
+    },
+    "Week 3": {
+      "opponent": "Buffalo Bills",
+      "is_home": true
+    },
+    "Week 4": {
+      "opponent": "New England Patriots",
+      "is_home": false
+    },
+    "Week 5": {
+      "opponent": "Pittsburgh Steelers",
+      "is_home": false
+    },
+    "Week 6": {
+      "opponent": "Cleveland Browns",
+      "is_home": true
+    },
+    "Week 7": {
+      "opponent": "Philadelphia Eagles",
+      "is_home": false
+    },
+    "Week 8": {
+      "opponent": "Pittsburgh Steelers",
+      "is_home": false
+    },
+    "Week 9": {
+      "opponent": "Green Bay Packers",
+      "is_home": false
+    },
+    "Week 10": {
+      "opponent": "San Francisco 49ers",
+      "is_home": false
+    },
+    "Week 11": {
+      "opponent": "Arizona Cardinals",
+      "is_home": true
+    },
+    "Week 12": {
+      "opponent": "Washington Commanders",
+      "is_home": true
+    },
+    "Week 13": {
+      "opponent": "Washington Commanders",
+      "is_home": false
+    },
+    "Week 14": {
+      "opponent": "New England Patriots",
+      "is_home": false
+    },
+    "Week 15": {
+      "opponent": "New England Patriots",
+      "is_home": true
+    },
+    "Week 16": {
+      "opponent": "Cleveland Browns",
+      "is_home": false
+    },
+    "Week 17": {
+      "opponent": "New England Patriots",
+      "is_home": true
+    }
+  }
+}

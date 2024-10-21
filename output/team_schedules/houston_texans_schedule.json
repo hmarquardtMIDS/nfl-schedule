@@ -1,0 +1,75 @@
+{
+  "team": "Houston Texans",
+  "conference": "AFC",
+  "division": "South",
+  "schedule": {
+    "Week 1": {
+      "opponent": "Atlanta Falcons",
+      "is_home": true
+    },
+    "Week 2": {
+      "opponent": "Seattle Seahawks",
+      "is_home": false
+    },
+    "Week 3": {
+      "opponent": "Minnesota Vikings",
+      "is_home": false
+    },
+    "Week 4": {
+      "opponent": "Pittsburgh Steelers",
+      "is_home": true
+    },
+    "Week 5": {
+      "opponent": "Los Angeles Chargers",
+      "is_home": false
+    },
+    "Week 6": {
+      "opponent": "Seattle Seahawks",
+      "is_home": false
+    },
+    "Week 7": {
+      "opponent": "Minnesota Vikings",
+      "is_home": false
+    },
+    "Week 8": {
+      "opponent": "Seattle Seahawks",
+      "is_home": true
+    },
+    "Week 9": {
+      "opponent": "New Orleans Saints",
+      "is_home": true
+    },
+    "Week 10": {
+      "opponent": "Detroit Lions",
+      "is_home": false
+    },
+    "Week 11": {
+      "opponent": "Tampa Bay Buccaneers",
+      "is_home": true
+    },
+    "Week 12": {
+      "opponent": "Tampa Bay Buccaneers",
+      "is_home": true
+    },
+    "Week 13": {
+      "opponent": "New York Giants",
+      "is_home": false
+    },
+    "Week 14": {
+      "opponent": "Seattle Seahawks",
+      "is_home": false
+    },
+    "Week 15": {
+      "opponent": "Detroit Lions",
+      "is_home": true
+    },
+    "Week 16": {
+      "opponent": "Arizona Cardinals",
+      "is_home": false
+    },
+    "Week 17": {
+      "opponent": "Cleveland Browns",
+      "is_home": false
+    }
+  }
+}

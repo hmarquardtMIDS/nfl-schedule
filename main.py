@@ -14,14 +14,19 @@ def main():
     for game in team_schedule:
         print(game)
 
-    # Save the schedule to a JSON file
+    # Save the full schedule to a JSON file
     output_dir = "output"
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     
     json_filename = os.path.join(output_dir, "nfl_schedule.json")
     schedule.save_to_json(json_filename)
-    print(f"\nSchedule saved to {json_filename}")
+    print(f"\nFull schedule saved to {json_filename}")
+
+    # Save individual team schedules
+    team_schedules_dir = os.path.join(output_dir, "team_schedules")
+    num_teams = schedule.save_team_schedules(team_schedules_dir)
+    print(f"{num_teams} individual team schedules saved to {team_schedules_dir}")
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,75 @@
+{
+  "team": "Denver Broncos",
+  "conference": "AFC",
+  "division": "West",
+  "schedule": {
+    "Week 1": {
+      "opponent": "Chicago Bears",
+      "is_home": true
+    },
+    "Week 2": {
+      "opponent": "Miami Dolphins",
+      "is_home": true
+    },
+    "Week 3": {
+      "opponent": "Carolina Panthers",
+      "is_home": true
+    },
+    "Week 4": {
+      "opponent": "Los Angeles Chargers",
+      "is_home": false
+    },
+    "Week 5": {
+      "opponent": "Dallas Cowboys",
+      "is_home": true
+    },
+    "Week 6": {
+      "opponent": "Miami Dolphins",
+      "is_home": false
+    },
+    "Week 7": {
+      "opponent": "Seattle Seahawks",
+      "is_home": true
+    },
+    "Week 8": {
+      "opponent": "Indianapolis Colts",
+      "is_home": true
+    },
+    "Week 9": {
+      "opponent": "Atlanta Falcons",
+      "is_home": false
+    },
+    "Week 10": {
+      "opponent": "Philadelphia Eagles",
+      "is_home": false
+    },
+    "Week 11": {
+      "opponent": "Los Angeles Chargers",
+      "is_home": false
+    },
+    "Week 12": {
+      "opponent": "New England Patriots",
+      "is_home": false
+    },
+    "Week 13": {
+      "opponent": "New York Jets",
+      "is_home": false
+    },
+    "Week 14": {
+      "opponent": "Carolina Panthers",
+      "is_home": true
+    },
+    "Week 15": {
+      "opponent": "Philadelphia Eagles",
+      "is_home": false
+    },
+    "Week 16": {
+      "opponent": "Baltimore Ravens",
+      "is_home": false
+    },
+    "Week 17": {
+      "opponent": "Kansas City Chiefs",
+      "is_home": false
+    }
+  }
+}

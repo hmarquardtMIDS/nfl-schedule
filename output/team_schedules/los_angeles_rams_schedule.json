@@ -1,0 +1,75 @@
+{
+  "team": "Los Angeles Rams",
+  "conference": "NFC",
+  "division": "West",
+  "schedule": {
+    "Week 1": {
+      "opponent": "Tampa Bay Buccaneers",
+      "is_home": false
+    },
+    "Week 2": {
+      "opponent": "Pittsburgh Steelers",
+      "is_home": true
+    },
+    "Week 3": {
+      "opponent": "Detroit Lions",
+      "is_home": true
+    },
+    "Week 4": {
+      "opponent": "Green Bay Packers",
+      "is_home": true
+    },
+    "Week 5": {
+      "opponent": "New Orleans Saints",
+      "is_home": true
+    },
+    "Week 6": {
+      "opponent": "Buffalo Bills",
+      "is_home": false
+    },
+    "Week 7": {
+      "opponent": "Baltimore Ravens",
+      "is_home": true
+    },
+    "Week 8": {
+      "opponent": "Carolina Panthers",
+      "is_home": false
+    },
+    "Week 9": {
+      "opponent": "Seattle Seahawks",
+      "is_home": false
+    },
+    "Week 10": {
+      "opponent": "Baltimore Ravens",
+      "is_home": true
+    },
+    "Week 11": {
+      "opponent": "Baltimore Ravens",
+      "is_home": true
+    },
+    "Week 12": {
+      "opponent": "Kansas City Chiefs",
+      "is_home": false
+    },
+    "Week 13": {
+      "opponent": "San Francisco 49ers",
+      "is_home": false
+    },
+    "Week 14": {
+      "opponent": "Jacksonville Jaguars",
+      "is_home": false
+    },
+    "Week 15": {
+      "opponent": "Indianapolis Colts",
+      "is_home": false
+    },
+    "Week 16": {
+      "opponent": "New York Jets",
+      "is_home": false
+    },
+    "Week 17": {
+      "opponent": "San Francisco 49ers",
+      "is_home": true
+    }
+  }
+}

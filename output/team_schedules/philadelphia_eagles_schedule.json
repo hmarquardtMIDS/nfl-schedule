@@ -1,0 +1,75 @@
+{
+  "team": "Philadelphia Eagles",
+  "conference": "NFC",
+  "division": "East",
+  "schedule": {
+    "Week 1": {
+      "opponent": "Las Vegas Raiders",
+      "is_home": true
+    },
+    "Week 2": {
+      "opponent": "New York Jets",
+      "is_home": false
+    },
+    "Week 3": {
+      "opponent": "Baltimore Ravens",
+      "is_home": true
+    },
+    "Week 4": {
+      "opponent": "Atlanta Falcons",
+      "is_home": false
+    },
+    "Week 5": {
+      "opponent": "Baltimore Ravens",
+      "is_home": false
+    },
+    "Week 6": {
+      "opponent": "Chicago Bears",
+      "is_home": false
+    },
+    "Week 7": {
+      "opponent": "Las Vegas Raiders",
+      "is_home": true
+    },
+    "Week 8": {
+      "opponent": "San Francisco 49ers",
+      "is_home": true
+    },
+    "Week 9": {
+      "opponent": "Detroit Lions",
+      "is_home": true
+    },
+    "Week 10": {
+      "opponent": "Denver Broncos",
+      "is_home": true
+    },
+    "Week 11": {
+      "opponent": "Kansas City Chiefs",
+      "is_home": false
+    },
+    "Week 12": {
+      "opponent": "New York Jets",
+      "is_home": true
+    },
+    "Week 13": {
+      "opponent": "Pittsburgh Steelers",
+      "is_home": true
+    },
+    "Week 14": {
+      "opponent": "New York Jets",
+      "is_home": true
+    },
+    "Week 15": {
+      "opponent": "Denver Broncos",
+      "is_home": true
+    },
+    "Week 16": {
+      "opponent": "New England Patriots",
+      "is_home": false
+    },
+    "Week 17": {
+      "opponent": "Pittsburgh Steelers",
+      "is_home": false
+    }
+  }
+}

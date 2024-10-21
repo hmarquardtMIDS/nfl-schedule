@@ -1,0 +1,75 @@
+{
+  "team": "Cleveland Browns",
+  "conference": "AFC",
+  "division": "North",
+  "schedule": {
+    "Week 1": {
+      "opponent": "Washington Commanders",
+      "is_home": true
+    },
+    "Week 2": {
+      "opponent": "Arizona Cardinals",
+      "is_home": false
+    },
+    "Week 3": {
+      "opponent": "New Orleans Saints",
+      "is_home": false
+    },
+    "Week 4": {
+      "opponent": "Dallas Cowboys",
+      "is_home": true
+    },
+    "Week 5": {
+      "opponent": "Washington Commanders",
+      "is_home": false
+    },
+    "Week 6": {
+      "opponent": "Las Vegas Raiders",
+      "is_home": false
+    },
+    "Week 7": {
+      "opponent": "Arizona Cardinals",
+      "is_home": false
+    },
+    "Week 8": {
+      "opponent": "Los Angeles Chargers",
+      "is_home": true
+    },
+    "Week 9": {
+      "opponent": "Tampa Bay Buccaneers",
+      "is_home": false
+    },
+    "Week 10": {
+      "opponent": "Dallas Cowboys",
+      "is_home": true
+    },
+    "Week 11": {
+      "opponent": "Dallas Cowboys",
+      "is_home": false
+    },
+    "Week 12": {
+      "opponent": "Indianapolis Colts",
+      "is_home": true
+    },
+    "Week 13": {
+      "opponent": "Miami Dolphins",
+      "is_home": true
+    },
+    "Week 14": {
+      "opponent": "Tampa Bay Buccaneers",
+      "is_home": false
+    },
+    "Week 15": {
+      "opponent": "Chicago Bears",
+      "is_home": true
+    },
+    "Week 16": {
+      "opponent": "Las Vegas Raiders",
+      "is_home": true
+    },
+    "Week 17": {
+      "opponent": "Houston Texans",
+      "is_home": true
+    }
+  }
+}
