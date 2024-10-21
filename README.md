@@ -28,3 +28,11 @@ This is a simplified version of NFL scheduling. The actual NFL schedule is much 
 - And many more factors
 
 To create a more realistic NFL schedule generator, you would need to implement these additional rules and constraints.
+
+## Testing
+
+To run the tests, use the following command:
+
+```
+python -m unittest test_schedule_generator.py
+```
