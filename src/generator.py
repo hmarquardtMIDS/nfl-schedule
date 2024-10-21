@@ -7,6 +7,7 @@ class ScheduleGenerator:
     def __init__(self):
         self.teams = self._create_teams()
         self.schedule = Schedule()
+        self.num_weeks = 18 # 18-week season
 
     def _create_teams(self):
         teams = []
@@ -17,7 +18,7 @@ class ScheduleGenerator:
 
     def generate_schedule(self):
         # This is a simplified schedule generation. A real NFL schedule is more complex.
-        for week in range(1, 18):  # 17-week season
+        for week in range(1, self.num_weeks+1):  
             teams_this_week = self.teams.copy()
             random.shuffle(teams_this_week)
             while teams_this_week:

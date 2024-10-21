@@ -4,72 +4,76 @@
   "division": "North",
   "schedule": {
     "Week 1": {
-      "opponent": "Pittsburgh Steelers",
-      "is_home": false
+      "opponent": "Tampa Bay Buccaneers",
+      "is_home": true
     },
     "Week 2": {
-      "opponent": "New York Giants",
+      "opponent": "Tennessee Titans",
       "is_home": true
     },
     "Week 3": {
-      "opponent": "Philadelphia Eagles",
+      "opponent": "Arizona Cardinals",
       "is_home": false
     },
     "Week 4": {
-      "opponent": "Chicago Bears",
-      "is_home": true
+      "opponent": "Jacksonville Jaguars",
+      "is_home": false
     },
     "Week 5": {
-      "opponent": "Philadelphia Eagles",
-      "is_home": true
+      "opponent": "Las Vegas Raiders",
+      "is_home": false
     },
     "Week 6": {
-      "opponent": "Detroit Lions",
+      "opponent": "Philadelphia Eagles",
       "is_home": false
     },
     "Week 7": {
-      "opponent": "Los Angeles Rams",
+      "opponent": "Buffalo Bills",
       "is_home": false
     },
     "Week 8": {
-      "opponent": "New Orleans Saints",
+      "opponent": "Cleveland Browns",
       "is_home": true
     },
     "Week 9": {
-      "opponent": "Pittsburgh Steelers",
-      "is_home": true
+      "opponent": "Detroit Lions",
+      "is_home": false
     },
     "Week 10": {
-      "opponent": "Los Angeles Rams",
+      "opponent": "Chicago Bears",
       "is_home": false
     },
     "Week 11": {
-      "opponent": "Los Angeles Rams",
-      "is_home": false
-    },
-    "Week 12": {
-      "opponent": "San Francisco 49ers",
-      "is_home": false
-    },
-    "Week 13": {
-      "opponent": "Cincinnati Bengals",
+      "opponent": "Miami Dolphins",
       "is_home": true
     },
-    "Week 14": {
+    "Week 12": {
       "opponent": "Green Bay Packers",
       "is_home": true
     },
+    "Week 13": {
+      "opponent": "Tampa Bay Buccaneers",
+      "is_home": true
+    },
+    "Week 14": {
+      "opponent": "Seattle Seahawks",
+      "is_home": false
+    },
     "Week 15": {
-      "opponent": "Cincinnati Bengals",
+      "opponent": "Jacksonville Jaguars",
       "is_home": false
     },
     "Week 16": {
-      "opponent": "Denver Broncos",
-      "is_home": true
+      "opponent": "Buffalo Bills",
+      "is_home": false
     },
     "Week 17": {
-      "opponent": "Detroit Lions",
+      "opponent": "Seattle Seahawks",
       "is_home": true
+    },
+    "Week 18": {
+      "opponent": "Washington Commanders",
+      "is_home": false
     }
   }
 }

@@ -20,6 +20,7 @@ class Game:
 class Schedule:
     def __init__(self):
         self.games = []
+        self.num_weeks = 18 # 18-week season
 
     def add_game(self, game):
         self.games.append(game)
