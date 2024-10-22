@@ -96,11 +96,14 @@ class ScheduleGenerator:
         return self.bye_weeks
 
     def _find_available_weeks(self, home_team, away_team):
-        return [week for week in range(1, 19) 
+        available_weeks = [week for week in range(1, 19) 
                 if self.bye_weeks[home_team] != week 
                 and self.bye_weeks[away_team] != week 
                 and self._is_week_available(week, home_team) 
                 and self._is_week_available(week, away_team)]
+        if not available_weeks:
+            print(f"No available weeks found for {home_team.name} vs {away_team.name}")
+        return available_weeks
 
     def _is_week_available(self, week, team):
         return not any(game.week == week and (game.home_team == team or game.away_team == team) for game in self.schedule.games)
