@@ -75,3 +75,13 @@ class Schedule:
                 json.dump(team_schedule, f, indent=2)
         
         return len(set([game.home_team for game in self.games] + [game.away_team for game in self.games]))
+
+    def save_bye_week_summary(self, filename, bye_weeks):
+        bye_week_summary = {f"Week {week}": 0 for week in range(1, TOTAL_WEEKS + 1)}
+        
+        for team, bye_week in bye_weeks.items():
+            if bye_week:
+                bye_week_summary[f"Week {bye_week}"] += 1
+
+        with open(filename, 'w') as f:
+            json.dump(bye_week_summary, f, indent=2)

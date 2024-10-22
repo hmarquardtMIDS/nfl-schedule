@@ -21,13 +21,22 @@ class ScheduleGenerator:
         teams_to_assign = self.teams.copy()
         random.shuffle(teams_to_assign)
 
-        for week in bye_week_range:
-            if not teams_to_assign:
-                break
-            teams_on_bye = random.sample(teams_to_assign, min(4, len(teams_to_assign)))
+        bye_weeks_count = {week: 0 for week in bye_week_range}
+
+        while teams_to_assign:
+            available_weeks = [week for week in bye_week_range if bye_weeks_count[week] < 6]
+            if not available_weeks:
+                # If we can't assign all byes, start over
+                return self._assign_bye_weeks()
+
+            week = random.choice(available_weeks)
+            teams_on_bye = random.sample(teams_to_assign, min(2, len(teams_to_assign)))
+            
             for team in teams_on_bye:
                 self.bye_weeks[team] = week
                 teams_to_assign.remove(team)
+            
+            bye_weeks_count[week] += 2
 
     def generate_schedule(self):
         self._assign_bye_weeks()

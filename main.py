@@ -23,8 +23,8 @@ def generate_schedule():
     print("Full NFL Schedule:")
     print(schedule)
     
-    print("\nSchedule for AFC East Team (Buffalo Bills):")
-    sample_team = generator.teams[0]  # Buffalo Bills
+    print("\nSchedule for AFC North Team (Cincinnati Bengals):")
+    sample_team = next(team for team in generator.teams if team.name == "Cincinnati Bengals")
     team_schedule = schedule.get_team_schedule(sample_team)
     team_bye_week = bye_weeks[sample_team]
     
@@ -40,11 +40,12 @@ def generate_schedule():
             else:
                 print(f"Week {week}: No game scheduled (error)")
 
-    # Save the full schedule to a JSON file
+    # Create output directory if it doesn't exist
     output_dir = "output"
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     
+    # Save the full schedule to a JSON file
     json_filename = os.path.join(output_dir, "nfl_schedule.json")
     schedule.save_to_json(json_filename)
     print(f"\nFull schedule saved to {json_filename}")
@@ -53,6 +54,11 @@ def generate_schedule():
     team_schedules_dir = os.path.join(output_dir, "team_schedules")
     num_teams = schedule.save_team_schedules(team_schedules_dir, bye_weeks)
     print(f"{num_teams} individual team schedules saved to {team_schedules_dir}")
+
+    # Save bye week summary
+    bye_week_summary_filename = os.path.join(output_dir, "bye_week_summary.json")
+    schedule.save_bye_week_summary(bye_week_summary_filename, bye_weeks)
+    print(f"Bye week summary saved to {bye_week_summary_filename}")
 
 def main():
     print("Running tests...")
