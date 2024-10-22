@@ -38,18 +38,62 @@ class ScheduleGenerator:
             
             bye_weeks_count[week] += 2
 
+    def _generate_divisional_games(self):
+        divisional_games = []
+        for conference in NFL_TEAMS.keys():
+            for division in NFL_TEAMS[conference].keys():
+                teams = [team for team in self.teams if team.conference == conference and team.division == division]
+                for home_team in teams:
+                    for away_team in teams:
+                        if home_team != away_team:
+                            # Create two games, one home and one away
+                            divisional_games.append((home_team, away_team))
+                            divisional_games.append((away_team, home_team))
+        return divisional_games
+
     def generate_schedule(self):
         self._assign_bye_weeks()
+        divisional_games = self._generate_divisional_games()
+        
+        # Shuffle the divisional games to distribute them throughout the season
+        random.shuffle(divisional_games)
 
-        for week in range(1, 19):  # 18-week season
-            teams_this_week = [team for team in self.teams if self.bye_weeks[team] != week]
-            random.shuffle(teams_this_week)
+        # Create a list of all possible game slots
+        game_slots = [(week, team) for week in range(1, 19) for team in self.teams if self.bye_weeks[team] != week]
+        
+        # Assign divisional games first
+        for home_team, away_team in divisional_games:
+            home_slots = [slot for slot in game_slots if slot[1] == home_team]
+            away_slots = [slot for slot in game_slots if slot[1] == away_team]
+            common_weeks = set(slot[0] for slot in home_slots) & set(slot[0] for slot in away_slots)
             
-            while len(teams_this_week) >= 2:
-                home_team = teams_this_week.pop()
-                away_team = teams_this_week.pop()
-                game = Game(home_team, away_team, week)
-                self.schedule.add_game(game)
+            if not common_weeks:
+                raise ValueError("Unable to schedule all divisional games")
+            
+            week = random.choice(list(common_weeks))
+            game = Game(home_team, away_team, week)
+            self.schedule.add_game(game)
+            
+            # Remove used slots
+            game_slots = [slot for slot in game_slots if slot != (week, home_team) and slot != (week, away_team)]
+
+        # Fill in the rest of the schedule with non-divisional games
+        while game_slots:
+            week, home_team = game_slots.pop(random.randint(0, len(game_slots) - 1))
+            available_away_teams = [slot[1] for slot in game_slots if slot[0] == week and slot[1].conference == home_team.conference]
+            
+            if not available_away_teams:
+                available_away_teams = [slot[1] for slot in game_slots if slot[0] == week]
+            
+            if not available_away_teams:
+                raise ValueError("Unable to complete the schedule")
+            
+            away_team = random.choice(available_away_teams)
+            game = Game(home_team, away_team, week)
+            self.schedule.add_game(game)
+            
+            # Remove the used away team slot
+            game_slots = [slot for slot in game_slots if slot != (week, away_team)]
 
     def get_schedule(self):
         return self.schedule

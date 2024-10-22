@@ -89,5 +89,15 @@ class TestScheduleGenerator(unittest.TestCase):
         total_bye_weeks = sum(1 for bye_week in self.bye_weeks.values() if bye_week is not None)
         self.assertEqual(total_bye_weeks, len(self.generator.teams))
 
+    def test_divisional_matchups(self):
+        """Test that each team plays its divisional opponents twice."""
+        for team in self.generator.teams:
+            divisional_opponents = [t for t in self.generator.teams if t.conference == team.conference and t.division == team.division and t != team]
+            for opponent in divisional_opponents:
+                matchups = [game for game in self.schedule.games if 
+                            (game.home_team == team and game.away_team == opponent) or 
+                            (game.home_team == opponent and game.away_team == team)]
+                self.assertEqual(len(matchups), 2, f"{team.name} should play {opponent.name} twice, but played {len(matchups)} times")
+
 if __name__ == '__main__':
     unittest.main()
